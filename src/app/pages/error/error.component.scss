@@ -1,0 +1,17 @@
+.container {
+  @apply mx-auto px-2 py-2;
+}
+.container2 {
+  @apply flex justify-center items-center py-10;
+}
+
+.logo {
+  @apply w-full h-full bg-no-repeat bg-cover bg-left bg-fixed;
+}
+
+.card {
+  @apply max-w-full mx-auto flex p-8 bg-transparent rounded-xl shadow-2xl;
+}
+.card2 {
+  @apply max-w-full mx-auto flex p-2 bg-transparent rounded shadow-2xl;
+}
