@@ -12,5 +12,5 @@ export interface TailwindBreakpointsStatus {
   isLg: boolean;
   isXl: boolean;
   is2Xl: boolean;
-  isOver2xl: boolean;
+  isOver2Xl: boolean;
 }

@@ -26,6 +26,14 @@ export class HeaderComponent implements AfterViewInit {
       linkText: 'accueil',
     },
     {
+      path: AppRoutes.picturesByDayGallery,
+      linkText: 'gallerie par jour',
+    },
+    {
+      path: AppRoutes.userPicturesGallery,
+      linkText: 'ma gallerie',
+    },
+    {
       path: AppRoutes.contact,
       linkText: 'contact',
     },

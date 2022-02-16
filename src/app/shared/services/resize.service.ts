@@ -16,7 +16,7 @@ export class ResizeService {
     isLg: false,
     isXl: false,
     is2Xl: false,
-    isOver2xl: false,
+    isOver2Xl: false,
   };
 
   get twBreakpoints(): TailwindBreakpointsStatus {
@@ -28,9 +28,7 @@ export class ResizeService {
   }
 
   #updateBreakpointsOnResize(): void {
-    fromEvent(window, 'resize').subscribe(() =>
-      this.#updateBreakpointsOnResize()
-    );
+    fromEvent(window, 'resize').subscribe(() => this.updateBreakPoints());
   }
 
   updateBreakPoints(): void {
@@ -41,7 +39,7 @@ export class ResizeService {
     const isLg = !isMd && width < TailwindBreakpoints.Lg;
     const isXl = !isLg && width < TailwindBreakpoints.Xl;
     const is2Xl = !isXl && width < TailwindBreakpoints.DoubleXl;
-    const isOver2xl = !is2Xl;
+    const isOver2Xl = !is2Xl;
 
     this.#twBreakpoints = {
       isSm,
@@ -49,7 +47,7 @@ export class ResizeService {
       isLg,
       isXl,
       is2Xl,
-      isOver2xl,
+      isOver2Xl,
     };
   }
 }
