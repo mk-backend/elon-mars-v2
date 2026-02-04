@@ -139,6 +139,7 @@
   },
   "defaultProject": "Elon-Mars2",
   "cli": {
+    "analytics": false,
     "defaultCollection": "@angular-eslint/schematics"
   }
 }

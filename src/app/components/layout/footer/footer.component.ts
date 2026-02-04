@@ -25,6 +25,6 @@ export class FooterComponent {
   }
 
   get copyRightsDeclaration(): string {
-    return '2021 elon mars, all rights not reserved';
+    return '2022 Elon Mars, all rights not reserved';
   }
 }
