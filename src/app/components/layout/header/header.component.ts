@@ -27,11 +27,11 @@ export class HeaderComponent implements AfterViewInit {
     },
     {
       path: AppRoutes.picturesByDayGallery,
-      linkText: 'gallerie par jour',
+      linkText: 'galerie par jour',
     },
     {
       path: AppRoutes.userPicturesGallery,
-      linkText: 'ma gallerie',
+      linkText: 'ma galerie',
     },
     {
       path: AppRoutes.contact,
