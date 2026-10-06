@@ -1,7 +1,7 @@
 # Elon Mars
 
 Galerie de photos de Mars prises par le rover Curiosity, faite en Angular avec l'API de la NASA.
-Projet réalisé pendant ma formation (2022).
+Version 2 du projet de groupe Elon Mars, réalisé pendant ma formation (2022), dans laquelle j'ai ajouté des améliorations.
 
 Site en ligne : [e-lonmars.netlify.app](https://e-lonmars.netlify.app/)
 
